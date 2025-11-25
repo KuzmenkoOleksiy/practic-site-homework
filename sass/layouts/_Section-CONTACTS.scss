@@ -1,0 +1,205 @@
+.CONTACTS {
+  padding-top: 20px;
+  padding-bottom: 41px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.name_section_text {
+  color: var(--text_color);
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: var(--text_color);
+  margin-bottom: 32px;
+}
+
+.CONTACTS_container-form_text {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  gap: 30px;
+  @media screen and (min-width: 768px) {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+
+.title-form_CONTACTS {
+  color: var(--text_color);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--text_color);
+  margin-bottom: 20px;
+}
+
+.form_CONTACTS {
+  display: block;
+  margin: 0 auto;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  @media screen and (min-width: 768px) {
+    width: 580px;
+  }
+}
+
+.form-name_email_tel {
+  display: flex;
+  
+  flex-direction: column;
+  @media screen and (max-width: 1200px) {
+    gap: 47px;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.form-name_email_tel input {
+  width: 95%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--text_color);
+  border-bottom: 2px solid #4f4f4f;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 1200px) {
+    width: 250px;
+  }
+}
+
+.form-name_email_tel input::placeholder {
+  font-weight: 700;
+  font-size: 18px;
+  color: #4f4f4f;
+
+  @media screen and (min-width: 480px) {
+    font-size: 14px;
+  }
+}
+
+.input_message {
+  font-size: 18px;
+  width: 100%;
+  max-width: 570px;
+  height: 109px;
+  border: 1px solid #4f4f4f;
+  border-radius: 8px;
+  outline: none;
+  background-color: transparent;
+  color: var(--text_color);
+  padding: 10px 12px;
+  resize: none;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    padding: 15px 21px;
+  }
+}
+
+.input_message::placeholder {
+  font-size: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+.button_submit {
+  width: 143px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: var(--style_color);
+  color: var(--text_color);
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+.button_submit:hover {
+  background-color: #ae9527;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CONTACTS_container-text {
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    padding: 0 20px;
+  }
+}
+
+.CONTACTS_container-text_name {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--text_color);
+  margin-bottom: 32px;
+}
+
+.CONTACTS_container-text_subname {
+  width: 292px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text_color);
+  margin-bottom: 16px;
+}
+
+.CONTACTS_list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.CONTACTS_list li a {
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--text_color);
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  transition: 2s ease;
+}
+
+.CONTACTS_list li a:hover {
+  color: #a3a3a3;
+  text-decoration: underline;
+}
+
+.wrapper-CONTACTS_list {
+  display: flex;
+  justify-content: center;
+}

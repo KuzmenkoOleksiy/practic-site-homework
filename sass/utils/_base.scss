@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.body {
+  background-color: #171717;
+  font-family: "DM Sans", sans-serif;
+  transition: 0.6s linear;
+}
+
+.body:has(#Toggle-switch:checked) {
+  background-color: rgb(254, 252, 248);
+  --text_color: rgb(0, 0, 0);
+  --text2_color: #828282;
+  --bg_color: white;
+  --main-text_color: black;
+  --style_color: #2fc06b;
+  --link-bg_color: #7ee5a9;
+  --program-language-bg_color: #e4e3d9;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 5px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 480px) {
+    padding: 0 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0 50px;
+  }
+}
